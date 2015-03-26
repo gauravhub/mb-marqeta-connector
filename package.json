@@ -1,0 +1,12 @@
+{
+  "name": "mb-marqeta-connector",
+  "version": "1.0.0",
+  "description": "API clients for Marqeta API",
+  "main": "index.js",
+  "author": "Gaurav Dhamija <gauravdhamija83@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": "^0.7.1",
+    "unirest": "^0.4.0"
+  }
+}
