@@ -1,6 +1,9 @@
+/// <reference path="../typings/nconf/nconf.d.ts" />
+
 declare function require(name:string);
 var unirest = require('unirest');
-var nconf = require('nconf');
+
+import nconf = require('nconf');
 
 class PingAPIClient {
     ping(){

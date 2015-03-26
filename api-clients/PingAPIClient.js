@@ -1,5 +1,5 @@
+/// <reference path="../typings/nconf/nconf.d.ts" />
 var unirest = require('unirest');
-var nconf = require('nconf');
 var PingAPIClient = (function () {
     function PingAPIClient() {
     }
