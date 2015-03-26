@@ -11,5 +11,5 @@ var PingAPIClient = (function () {
     };
     return PingAPIClient;
 })();
-exports.PingAPIClient = PingAPIClient;
+module.exports = PingAPIClient;
 //# sourceMappingURL=PingAPIClient.js.map
