@@ -1,6 +1,2 @@
-var PingAPIClient = require('./api-clients/PingAPIClient');
-var ApiClients;
-(function (ApiClients) {
-    PingAPIClient: PingAPIClient.PingAPIClient;
-})(ApiClients = exports.ApiClients || (exports.ApiClients = {}));
+exports.PingAPIClient = require('./api-clients/PingAPIClient');
 //# sourceMappingURL=index.js.map
